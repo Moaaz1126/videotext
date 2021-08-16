@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Text</title>
+    <link rel="icon" href="img/multimedia.png" sizes="30*30">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ----------------------------------------------to top ---------------------------------------------- -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">الاعلي</button>
+    <!-- ----------------------------------------------------loding------------------------------------------------------------------ -->
+    <div id="myProgress">
+        <div id="myBar"></div>
+      </div>
+    <!-- ----------------------------------------------------------------------------------mune------------------------------------------------------------------ -->
+    <div id="mune">
+        <img src="img/in logo.png" id="logo">
+
+        <button id="bell2" onclick="document.getElementById('form').style.display='block'; document.getElementById('not').style.display='none';">        <img src="img/new.png" id="new"></button>
+        <button id="bell" onclick="document.getElementById('not').style.display='block'; document.getElementById('form').style.display='none'; document.getElementById('not1').style.display='none';"><img src="img/bell.png" id="ibell"></button>
+        <span id="not1">3</span>
+        
+        <button id="link"><a href="video list/index.html" id="alink"><img src="img/list.png" class="list"><span class="slist">قائمت الفيديوهات</span></a></button>
+        <button id="link2" onclick="document.getElementById('sar').style.display='block'; document.getElementById('link2').style.display='none'; document.getElementById('link3').style.display='block';">🔎</button>
+        <button id="link3" onclick="document.getElementById('sar').style.display='none'; document.getElementById('link2').style.display='block'; document.getElementById('link3').style.display='none';">🚫</button>
+
+    </div>
+    <hr>
+    <!-- -------------------------------------------------------------------------------google form--------------------------------------------------------------- -->
+    <div id="form">
+        <div class="sq"></div>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScwaJGmSVQUAb2Qd-jQYyK_aBqu5TERIYlPqfYLYMp8lmmZzg/viewform?embedded=true" width="338" height="500" frameborder="0" marginheight="0" marginwidth="0">جارٍ التحميل…</iframe>
+        <br>
+        <button id="done" onclick="document.getElementById('form').style.display='none';">تم</button>
+    </div>
+<!-- --------------------------------------------------------------------------------------notfecition--------------------------------------------------- -->
+    <div id="not">
+        <div class="sq1"></div>
+        <div class="not1">
+            <img class="icon2" src="img/طحالب.jpg">
+            <p class="Name">عليا الطلاق</p>
+            <p class="Name">تم فيديو </p>
+            <span class="date2">2021/8/9</span>
+        </div>
+        <hr class="hr">
+        <div class="not1">
+            <img class="icon" src="img/طحالب.jpg">
+            <p class="Name">عليا الطلاق</p>
+            <p class="Name">تم4.5 دقائق من الفيديو</p>
+            <span class="date2">2021/8/8</span>
+            <hr class="hr">
+        </div>
+        <div class="not1">
+            <img class="icon2" src="img/طحالب.jpg">
+            <p class="Name">عليا الطلاق</p>
+            <p class="Name">تم4 دقائق من الفيديو</p>
+            <span class="date2">2021/8/9</span>
+        </div>
+
+
+
+        <button id="done" onclick="document.getElementById('not').style.display='none';">اخفاء</button>
+    </div>
+    <!-- ----------------------------------------------------------------------start sarch--------------------------------------------------------------- -->
+    <div id="sar">
+
+        <input type="search" class="sarch" placeholder="البحث .............">
+        <!-- <button id="hide" onclick="document.getElementById('sar').style.display='none'; document.getElementById('hide').style.display='none';">اخفاء</button> -->
+        <hr>
+    </div>
+
+    <!-- ----------------------------------------------------------------------------------video----------------------------------------------------- -->
+    <div id="con">
+
+
+
+
+        <div class="video">
+                <img src="img/mqdefault_6s.webp" id="back">
+                <span class="time">11:42</span>
+            <img src="img/طحالب.jpg" class="logo">
+            <p class="pp">الموسم الثاني | 14 | عليا الطلاق</p>
+            <p class="p">طحالب</p>
+            <span class="date">2021/5/1</span>
+            <a href="videos/1.html" id="watch">شاهد</a>
+        </div>
+        <div class="video">
+            <img src="img/Screenshot 2021-08-11 212747.png" id="back2">
+            <span class="time">1:50</span>
+        <img src="img/dr3.jpg" class="logo">
+        <p class="pp">مارلين مدحت تعلن إسلامها قبل إرتداء الحجاب وتنطق الشهادتين بكامل إرادتها</p>
+        <p class="p">درع</p>
+        <span class="date">2021/6/24</span>
+        <a href="videos/2.html" id="watch2">شاهد</a>
+    </div>
+
+    <div class="video">
+        <img src="img/five tool.png" id="back3">
+        <span class="time">3:56</span>
+    <img src="img/cool.jpg" class="logo">
+    <p class="pp">مارلين مدحت تعلن إسلامها قبل إرتداء الحجاب وتنطق الشهادتين بكامل إرادتها</p>
+    <p class="p">Cool</p>
+    <span class="date">2021/8/12</span>
+    <a href="videos/3.html" id="watch3">شاهد</a>
+</div>
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script lang="javascript" src="JS/index.js" type="text/javascript"></script>
+
+    <!-- <div id="video">
+
+        <img src="img/" class="back">
+        <span class="time">-----</span>
+
+    <img src=" " class="logo">
+    <p class="pp">----------------------</p>
+    <p class="p">----- -----</p>
+    <span class="date">----------</span>
+    <a href="videos/" class="watch">شاهد</a>
+</div> -->
+</body>
+</html>
