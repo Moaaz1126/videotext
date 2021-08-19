@@ -104,6 +104,12 @@ p {
     height: 177px;
     border-radius: 3px 3px 0px 0px;
 }
+#back4 {
+    display: none;
+    width: 350px;
+    height: 177px;
+    border-radius: 3px 3px 0px 0px;
+}
 /* ------------------------------------------------------------------end bake--------------------------------------------------------------- */
 .time {
     color: rgb(255, 255, 255);
@@ -180,6 +186,18 @@ p {
     color: rgb(31, 248, 128);
     
 }
+#watch4 {
+    display: none;
+    width: 350px;
+    border-radius: 0px 0px 10px 10px;
+    text-decoration: none;
+    text-align: center;
+    height: 20px;
+    margin-top: 5px;
+    background-color: rgb(27, 27, 27);
+    color: rgb(31, 248, 128);
+    
+}
 #watch:hover {
     background-color: black;
     transition: 0.7s;
@@ -189,6 +207,10 @@ p {
     transition: 0.7s;
 }
 #watch3:hover {
+    background-color: black;
+    transition: 0.7s;
+}
+#watch4:hover {
     background-color: black;
     transition: 0.7s;
 }
