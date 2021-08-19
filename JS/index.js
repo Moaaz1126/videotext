@@ -13,6 +13,8 @@ var i = 0;
             document.getElementById('back2').style.display='block';
             document.getElementById('watch3').style.display='block';
             document.getElementById('back3').style.display='block';
+            document.getElementById('watch4').style.display='block';
+            document.getElementById('back4').style.display='block';
             document.getElementById('myProgress').style.display='none';
         i = 0;
       } else {
