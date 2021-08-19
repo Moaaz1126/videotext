@@ -348,6 +348,11 @@ p {
         margin: auto;
         margin-top: 10px;
     }
+    #logo {
+    width: 100px;
+    height: 50px;
+    float: right;
+}
   }
 #not1 {
     color: white;
