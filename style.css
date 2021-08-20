@@ -28,11 +28,21 @@ body {
     background-color: #2c2c2c;
     border: none;
 }
+#bell:hover {
+    animation-name: rotate-bell7;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
 #bell2 {
     background-color: #2c2c2c;
     border: none;
     cursor:pointer;
 
+}
+#bell2:hover {
+    animation-name: rotate-bell7;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 #link {
     width: 160px;
@@ -448,4 +458,62 @@ p {
     margin-top: 2px;
     margin-left: 0px;
     width: 88.5;
+}
+
+#bell7 {
+    background-color: #2c2c2c;
+    border: none;
+    cursor:pointer;
+}
+#bell7:hover {
+    animation-name: rotate-bell7;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes rotate-bell7 {
+    0% {
+        transform: rotate(90deg);
+    }
+    10% {
+        transform: rotate(110deg);
+    }
+    15% {
+        transform: rotate(130deg);
+    }
+    20% {
+        transform: rotate(160deg);
+    }
+    25% {
+        transform: rotate(180deg);
+    }
+    30% {
+        transform: rotate(200deg);
+    }
+    35% {
+        transform: rotate(240deg);
+    }
+    40% {
+        transform: rotate(280deg);
+    }
+    45% {
+        transform: rotate(300deg);
+    }
+    50% {
+        transform: rotate(320deg);
+    }
+    55% {
+        transform: rotate(360deg);
+    }
+    70% {
+        transform: rotate(20deg);
+    }
+    80% {
+        transform: rotate(50deg);
+    }
+    90% {
+        transform: rotate(70deg);
+    }
+    100% {
+        transform: rotate(90deg);
+    }
 }
