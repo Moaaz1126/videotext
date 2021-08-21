@@ -70,6 +70,10 @@ body {
     background-color: rgb(255, 255, 255);
     transition: 0.5s;
 }
+#link:hover  #alink {
+    color: black;
+    transition: 0.5s;
+}
 #alink {
     color: rgb(255, 255, 255);
     text-decoration: none;
