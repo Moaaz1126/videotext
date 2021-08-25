@@ -31,7 +31,9 @@
 </head>
 <body>
     <!-- ----------------------------------------------to top ---------------------------------------------- -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top">الاعلي</button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">الاعلي <button id="link2" onclick="document.getElementById('sar').style.display='block'; document.getElementById('link2').style.display='none'; document.getElementById('link3').style.display='block';">🔎</button>
+
+</button>
     <!-- ----------------------------------------------------loding------------------------------------------------------------------ -->
     <div id="myProgress">
         <div id="myBar"></div>
@@ -47,8 +49,6 @@
         
         <button id="link"><a href="video list/index.html" id="alink"><img src="img/list.png" class="list"><span class="slist">قائمت الفيديوهات</span></a></button>
                 <button id="link"><a href="youtube-videos-translate/index.html" id="alink"><img src="img/youtube.png" class="list"><span class="slist">يوتيوب مدبلجة</span></a></button>
-<!--         <button id="link2" onclick="document.getElementById('sar').style.display='block'; document.getElementById('link2').style.display='none'; document.getElementById('link3').style.display='block';">🔎</button> -->
-        <button id="link3" onclick="document.getElementById('sar').style.display='none'; document.getElementById('link2').style.display='block'; document.getElementById('link3').style.display='none';">🚫</button>
 
     </div>
     <hr>
@@ -105,6 +105,7 @@
     <div id="sar">
 
         <input type="search" class="sarch" placeholder="البحث .............">
+                <button id="link3" onclick="document.getElementById('sar').style.display='none'; document.getElementById('link2').style.display='block'; document.getElementById('link3').style.display='none';">🚫</button>
         <!-- <button id="hide" onclick="document.getElementById('sar').style.display='none'; document.getElementById('hide').style.display='none';">اخفاء</button> -->
         <hr>
     </div>
