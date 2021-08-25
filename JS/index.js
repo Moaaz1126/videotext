@@ -30,6 +30,7 @@ var i = 0;
   // -------------------------------------------------------------to top------------------------------------------------
   //Get the button
 var mybutton = document.getElementById("myBtn");
+var sar = document.getElementById("sar");
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
@@ -37,8 +38,10 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     mybutton.style.display = "block";
+    sar.style.display = "block";
   } else {
     mybutton.style.display = "none";
+        mybutton.style.display = "sar";
   }
 }
 
