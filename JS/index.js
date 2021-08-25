@@ -41,7 +41,7 @@ function scrollFunction() {
     sar.style.display = "block";
   } else {
     mybutton.style.display = "none";
-        mybutton.style.display = "sar";
+        sar.style.display = "sar";
   }
 }
 
