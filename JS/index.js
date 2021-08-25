@@ -15,8 +15,10 @@ var i = 0;
             document.getElementById('back3').style.display='block';
             document.getElementById('watch4').style.display='block';
             document.getElementById('back4').style.display='block';
-                    document.getElementById('watch5').style.display='block';
+            document.getElementById('watch5').style.display='block';
             document.getElementById('back5').style.display='block';
+            document.getElementById('watch6').style.display='block';
+            document.getElementById('back6').style.display='block';
             document.getElementById('myProgress').style.display='none';
         i = 0;
       } else {
