@@ -1,0 +1,529 @@
+body {
+    background-color: #181818;
+}
+#mune {
+    height: 50px;
+    width: 100%;
+    background-color: #2c2c2c;
+}
+* {
+    margin: 0px;
+
+}
+#logo {
+    width: 150px;
+    height: 50px;
+    float: right;
+}
+#new {
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#ibell {
+    width: 30px;
+    cursor: pointer;
+}
+#bell {
+    background-color: #2c2c2c;
+    border: none;
+}
+#bell2 {
+    background-color: #2c2c2c;
+    border: none;
+    cursor:pointer;
+
+}
+#link {
+    width: 160px;
+    height: 50px;
+    /* padding: 10px 5px; */
+    float: right;
+    margin-right: 25px;
+    background-color: #2c2c2c;
+    border: none;
+}
+#link2 {
+    /* width: 20px; */
+    height: 50px;
+    font-size: 20px;
+    /* padding: 10px 5px; */
+    float: right;
+    /* margin-right: 25px; */
+    background-color: #2c2c2c;
+    border: none;
+}
+#link3 {
+    display: none;
+    /* width: 20px; */
+    height: 50px;
+    font-size: 20px;
+    /* padding: 10px 5px; */
+    float: right;
+    /* margin-right: 25px; */
+    background-color: #2c2c2c;
+    border: none;
+}
+#link:hover {
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+#alink {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+}
+#alink:hover {
+    color: black;
+    transition: 0.5s;
+}
+p {
+    color: white;
+
+}
+.pp {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+/* ----------------------------------------------------------saatrt back------------------------------------------------------- */
+#back {
+    display: none;
+    width: 350px;
+    /* height: 250px; */
+    border-radius: 3px 3px 0px 0px;
+}
+#back2 {
+    display: none;
+    width: 350px;
+    height: 177px;
+    border-radius: 3px 3px 0px 0px;
+}
+#back3 {
+    display: none;
+    width: 350px;
+    height: 177px;
+    border-radius: 3px 3px 0px 0px;
+}
+#back4 {
+    display: none;
+    width: 350px;
+    height: 177px;
+    border-radius: 3px 3px 0px 0px;
+}
+/* ------------------------------------------------------------------end bake--------------------------------------------------------------- */
+.time {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 10px;
+    display: block;
+
+}
+.logo {
+    border-radius: 50%;
+    width: 40px;
+    float: right;
+    margin-right: 7px;
+    margin-top: 17px;
+    display: block;
+}
+.video {
+    margin: 10px;
+    width: 350px;
+    background-color: #000000;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+.date {
+    text-align: center;
+    margin-left: 230px;
+    /* margin-bottom: 10px; */
+    font-size: 17px;
+    color: white;
+    opacity: 0.5;
+
+}
+.p {
+    margin-left: 240px;
+    font-size: 18px;
+    opacity: 0.6;
+}
+/* ----------------------------------------------------start watch-----------------------------------------------------------  */
+#watch {
+    display: none;
+    width: 350px;
+    border-radius: 0px 0px 10px 10px;
+    text-decoration: none;
+    text-align: center;
+    height: 20px;
+    margin-top: 5px;
+    background-color: rgb(27, 27, 27);
+    color: rgb(31, 248, 128);
+
+}
+#watch2 {
+    display: none;
+    width: 350px;
+    border-radius: 0px 0px 10px 10px;
+    text-decoration: none;
+    text-align: center;
+    height: 20px;
+    margin-top: 5px;
+    background-color: rgb(27, 27, 27);
+    color: rgb(31, 248, 128);
+
+}
+#watch3 {
+    display: none;
+    width: 350px;
+    border-radius: 0px 0px 10px 10px;
+    text-decoration: none;
+    text-align: center;
+    height: 20px;
+    margin-top: 5px;
+    background-color: rgb(27, 27, 27);
+    color: rgb(31, 248, 128);
+
+}
+#watch4 {
+    display: none;
+    width: 350px;
+    border-radius: 0px 0px 10px 10px;
+    text-decoration: none;
+    text-align: center;
+    height: 20px;
+    margin-top: 5px;
+    background-color: rgb(27, 27, 27);
+    color: rgb(31, 248, 128);
+
+}
+#watch:hover {
+    background-color: black;
+    transition: 0.7s;
+}
+#watch2:hover {
+    background-color: black;
+    transition: 0.7s;
+}
+#watch3:hover {
+    background-color: black;
+    transition: 0.7s;
+}
+#watch4:hover {
+    background-color: black;
+    transition: 0.7s;
+}
+/* ------------------------------------------------------------end watch---------------------------------------------- */
+#form {
+
+        /* display: none; */
+        position: absolute;
+        /* bottom: 0;
+        left: 15px;
+        border: 3px solid #f1f1f1;
+        z-index: 9; */
+        background-color:#000000;
+        display: none;
+        margin-left: 5px;
+        height: 560px;
+        border:2px solid rgb(6, 54, 83);
+        border-radius: 10px;
+
+
+}
+#not {
+
+    display: none;
+    position: absolute;
+    /* bottom: 0;
+    left: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9; */
+    background-color:#000000;
+    /* display: none; */
+    margin-left: 6px;
+    border: 2px solid rgb(6, 54, 83);
+    width: 300px;
+
+    border-radius: 10px;
+
+}
+.sq {
+    /* position: relative; */
+    /* margin-left: 5px; */
+    width: 20px;
+    height: 20px;
+    border-top: 2px solid rgb(6, 54, 83);
+    border-right: 0px solid rgb(6, 54, 83);
+    border-bottom: 0px solid rgb(6, 54, 83);
+    border-left: 2px solid rgb(6, 54, 83);
+    top: 100%;
+    left: 50%;
+    margin-left: 12.5px;
+    content: ' ';
+    transform: rotate(45deg);
+    margin-top: -10px;
+    background-color: #000000;
+    border-radius: 3px;
+}
+.sq1 {
+    /* position: relative; */
+    margin-left: 57.7px;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    border-top: 2px solid rgb(6, 54, 83);
+    border-right: 0px solid rgb(6, 54, 83);
+    border-bottom: 0px solid rgb(6, 54, 83);
+    border-left: 2px solid rgb(6, 54, 83);
+    top: 100%;
+    left: 50%;
+    /* margin-left: 18.5px; */
+    content: ' ';
+    transform: rotate(45deg);
+    margin-top: -10px;
+    background-color: #000000;
+}
+#done {
+    background-color: rgb(1, 98, 177);
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 5px 7px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+#done:hover {
+    background-color: rgb(49, 95, 182);
+    transition: 0.4s;
+}
+.icon {
+    float: right;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    margin-right: 4px;
+}
+.icon2 {
+    float: right;
+    border-radius: 50%;
+    /* margin-bottom: 15px; */
+    margin-right: 4px;
+}
+.Name {
+    text-align: right;
+}
+.date2 {
+    color: white;
+    display: block;
+    text-align: right;
+}
+.hr {
+    width: 90%;
+    text-align: center;
+    margin-left: 13px;
+    margin-bottom: 10px;
+}
+.slist {
+    margin-left: 5px;
+}
+@media only screen and (max-width: 500px) {
+    .slist {
+        display: none;
+    }
+    #link {
+        width: 40px;
+    }
+    #logo {
+        width: 125px;
+    }
+    .video {
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+    }
+  }
+#not1 {
+    color: white;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    margin-left: -30px;
+    top: 2px;
+    position: absolute;
+    left: 105px;
+    /* right: 100px; */
+    /* padding: 2px 6px; */
+
+
+}
+
+/* --------------------------------looding--------------------------------------------------------- */
+#myProgress {
+    width: 100%;
+    height: 2px;
+    margin-bottom: 1px;
+    background-color: #2c2c2c;
+
+  }
+
+  #myBar {
+    width: 0%;
+    height: 30px;
+    background-color: red;
+  }
+  /* -----------------------------------------------------------end------------------------------- */
+/* ------------------------------------------------------------to top---------------------------------- */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+
+  #myBtn:hover {
+    background-color: #f1f1;
+  }
+/* -----------------------------------------------------------------end----------------------------------------- */
+.sar {
+    height: 28px;
+    width: 100%;
+    background-color: #2c2c2c;
+    box-sizing: border-box;
+}
+.sarch {
+    padding: 2px 6px;
+    width: 90%;
+    border: none;
+    background-color: #2c2c2c;
+    color: white;
+    /* background-color: #2c2c2c; */
+    height: 25px;
+    /* margin-top: px; */
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-left: 15px; */
+    display: inline-block;
+    margin-left: 20px;
+    /* padding-top: 5px; */
+    font-size: 20px;
+
+}
+.sarch:focus {
+    outline: none;
+    background-color: white;
+    color: black;
+    margin-left: 0px;
+    align-items: center;
+    width: 95%;
+    transition: 0.5s;
+    border-radius: 3px;
+    margin-left: 30px;
+}
+#sar {
+    display: none;
+    margin-top: 2px;
+    margin-left: 0px;
+    width: 88.5;
+}
+
+#bell5{
+    background-color: #2c2c2c;
+    border: none;
+}
+#bell5:hover #show {
+    display: block;
+}
+#show {
+    display: none;
+}
+
+
+
+
+
+#bell7 {
+    background-color: #2c2c2c;
+    border: none;
+    cursor:pointer;
+}
+#bell7:hover {
+    animation-name: rotate-bell7;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+#bell1:hover {
+    animation-name: rotate-bell7;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+#bell:hover {
+    animation-name: rotate-bell7;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes rotate-bell7 {
+    0% {
+        transform: rotate(90deg);
+    }
+    10% {
+        transform: rotate(110deg);
+    }
+    15% {
+        transform: rotate(130deg);
+    }
+    20% {
+        transform: rotate(160deg);
+    }
+    25% {
+        transform: rotate(180deg);
+    }
+    30% {
+        transform: rotate(200deg);
+    }
+    35% {
+        transform: rotate(240deg);
+    }
+    40% {
+        transform: rotate(280deg);
+    }
+    45% {
+        transform: rotate(300deg);
+    }
+    50% {
+        transform: rotate(320deg);
+    }
+    55% {
+        transform: rotate(360deg);
+    }
+    70% {
+        transform: rotate(20deg);
+    }
+    80% {
+        transform: rotate(50deg);
+    }
+    90% {
+        transform: rotate(70deg);
+    }
+    100% {
+        transform: rotate(90deg);
+    }
+}
