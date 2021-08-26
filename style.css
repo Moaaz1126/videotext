@@ -482,12 +482,14 @@ p {
     margin-right: auto;
     /* margin-left: 15px; */
     display: inline-block;
-/*     margin-left: 20px; */
+    margin-left: 50px;
     /* padding-top: 5px; */
     font-size: 20px;
 
 }
 .sarch:focus {
+    
+        margin-left: 0px;
     outline: none;
     background-color: white;
     color: black;
@@ -495,7 +497,7 @@ p {
     align-items: center;
     width: 99.5%;
     transition: 0.5s;
-    border-radius: 3px;
+    border-radius: 7px;
 /*     margin-left: 30px; */
 }
 #sar {
