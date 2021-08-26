@@ -464,10 +464,12 @@ p {
     background-color: #2c2c2c;
     box-sizing: border-box;
 
-  position: fixed;
-  top: 0;
 }
 .sarch {
+    
+   
+  position: fixed;
+  top: 0;
     padding: 2px 6px;
     width: 80%;
     border: none;
