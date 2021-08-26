@@ -36,7 +36,7 @@ var sar = document.getElementById("sar");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 66) {
     mybutton.style.display = "block";
     sar.style.display = "block";
   } else {
