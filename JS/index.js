@@ -19,6 +19,8 @@ var i = 0;
             document.getElementById('back5').style.display='block';
             document.getElementById('watch6').style.display='block';
             document.getElementById('back6').style.display='block';
+                    document.getElementById('watch7').style.display='block';
+            document.getElementById('back7').style.display='block';
             document.getElementById('myProgress').style.display='none';
         i = 0;
       } else {
