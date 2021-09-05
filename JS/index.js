@@ -48,11 +48,11 @@ function scrollFunction() {
 }
 
 // When the user clicks on the button, scroll to the top of the document
+// When the user clicks on the button, scroll to the top of the document
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-// sarech fan
 function myFunction() {
     var input, filter, ul, li, a, i, txtValue;
     input = document.getElementById("myInput");
@@ -66,7 +66,6 @@ function myFunction() {
             li[i].style.display = "";
         } else {
             li[i].style.display = "none";
-                      document.getElementById('pre').style.display='block';
         }
     }
 }
