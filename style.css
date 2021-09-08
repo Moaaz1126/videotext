@@ -664,3 +664,13 @@ p {
     color: white;
     transition: 0.5s;
 }
+.fa-briefcase {
+        color: orangered;
+            background-color: white;
+    width: 25px;
+    /* margin-top: 10px; */
+    padding-top: 4px;
+    text-align: center;
+    height: 20px;
+    border-radius: 7px;
+}
