@@ -677,5 +677,6 @@ p {
 .fa-briefcase:hover {
         color: white;
             background-color: orangered;
+            transition: 0.5s;
 
 }
