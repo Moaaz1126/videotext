@@ -28,6 +28,7 @@ var i = 0;
       } else {
         width++;
         elem.style.width = width + "%";
+                    document.getElementById('pre').style.display = "block";
       }
     }
   }
