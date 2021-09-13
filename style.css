@@ -702,3 +702,6 @@ p {
             transition: 0.5s;
 
 }
+#pre {
+    display: none;
+}
